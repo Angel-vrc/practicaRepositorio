@@ -1,0 +1,58 @@
+COMANDOS NODE JS
+
+Dar permisos de ejecución de Script (Esto solo se hace una vez, pero pues por si acaso)
+Set-ExecutionPolicy Unrestricted
+
+Crear un package.json 
+npm init -y
+
+Instalador de paquetes/dependencias, se manejan con el Framework Express
+npm install express
+
+
+LISTA DE INSTALACION COMPLETA DE DEPENDENCIAS
+npm install express typeorm mysql2 cors dotenv helmet class-validator class-transformer
+(mas abajito están las instalaciones individuales por si acaso)
+Dependencias de desarrollo
+npm install -D typescript ts-node-dev @types/express @types/cors @types/node 
+
+Iniciar TypeScript
+npx tsc --init
+
+Configuración del Build	(Verificar que las líneas indicadas esten asi):
+
+"target": "es2020"
+"module": "commonjs"
+"rootDir": "./src"
+"outDir": "./dist"
+"esModuleInterop": true
+"forceConsistentCasingInFileNames": true
+"strict": true
+
+npm run para correr el servidor
+
+ctrl + c para parar el servidor
+
+instalar dependencias MySQL
+npm install express mysql2
+
+Dependencias de desarrollo:
+npm install --save-dev @types/express @types/node @types/cors ts-node typescript
+
+
+Instalar cors 
+npm install cors
+
+
+Instalar el validador
+npm i express-validator
+
+Instalar JWT
+npm i jsonwebtoken
+
+Instalar dotenv
+npm i dotenv
+
+Instalar ??
+npm i -D @types/jsonwebtoken
+
